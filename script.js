@@ -37,4 +37,5 @@ function playAudio(letter) {
       audioElement.src = letterContent.audio;
       audioElement.play();
   }
+  
 }
