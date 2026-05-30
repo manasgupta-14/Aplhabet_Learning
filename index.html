@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Learning</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Learn the Alphabet</h1>
+        <div class="alphabet-container">
+            <button class="btn btn-primary" onclick="playAudio('a')">A</button>
+            <button class="btn btn-primary" onclick="playAudio('b')">B</button>
+            <button class="btn btn-primary" onclick="playAudio('c')">C</button>
+            <button class="btn btn-primary" onclick="playAudio('d')">D</button>
+            <button class="btn btn-primary" onclick="playAudio('e')">E</button>
+            <button class="btn btn-primary" onclick="playAudio('f')">F</button>
+            <button class="btn btn-primary" onclick="playAudio('g')">G</button>
+            <button class="btn btn-primary" onclick="playAudio('h')">H</button>
+            <button class="btn btn-primary" onclick="playAudio('i')">I</button>
+            <button class="btn btn-primary" onclick="playAudio('j')">J</button>
+            <button class="btn btn-primary" onclick="playAudio('k')">K</button>
+            <button class="btn btn-primary" onclick="playAudio('l')">L</button>
+            <button class="btn btn-primary" onclick="playAudio('m')">M</button>
+            <button class="btn btn-primary" onclick="playAudio('n')">N</button>
+            <button class="btn btn-primary" onclick="playAudio('o')">O</button>
+            <button class="btn btn-primary" onclick="playAudio('p')">P</button>
+            <button class="btn btn-primary" onclick="playAudio('q')">Q</button>
+            <button class="btn btn-primary" onclick="playAudio('r')">R</button>
+            <button class="btn btn-primary" onclick="playAudio('s')">S</button>
+            <button class="btn btn-primary" onclick="playAudio('t')">T</button>
+            <button class="btn btn-primary" onclick="playAudio('u')">U</button>
+            <button class="btn btn-primary" onclick="playAudio('v')">V</button>
+            <button class="btn btn-primary" onclick="playAudio('w')">W</button>
+            <button class="btn btn-primary" onclick="playAudio('x')">X</button>
+            <button class="btn btn-primary" onclick="playAudio('y')">Y</button>
+            <button class="btn btn-primary" onclick="playAudio('z')">Z</button>
+        </div>
+        <div id="content" class="mt-4">
+            <h2 id="letter">A</h2>
+            <p id="description">A for Apple</p>
+            <img id="image" src="Apple.png"  class="img-fluid">
+        </div>
+    </div>
+    <audio id="audio" src=""></audio>
+    <script src="script.js"></script>
+</body>
+</html>

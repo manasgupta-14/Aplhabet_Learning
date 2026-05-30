@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.alphabet-container {
+  margin: 20px 0;
+}
+
+.alphabet-container .btn {
+  margin: 5px;
+  font-size: 24px;
+  padding: 20px;
+}
+
+#image {
+  max-width: 200px;
+}
